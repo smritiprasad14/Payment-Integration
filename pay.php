@@ -8,7 +8,7 @@ $email = $_POST["email"];
 
 include 'src/instamojo.php';
 
-$api = new Instamojo\Instamojo('test_99180aa59969d438c5487b34c7d', 'test_18237308916833e5a2492f43a00','https://test.instamojo.com/api/1.1/');
+$api = new Instamojo\Instamojo('Your_api_key', 'Your_auth_key','https://test.instamojo.com/api/1.1/');
 
 
 try {
